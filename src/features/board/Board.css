@@ -1,0 +1,8 @@
+.add-lane-pane:hover {
+    background-color: rgb(66, 83, 92);
+    cursor: pointer;
+}
+
+.add-lane-pane {
+    transition: all .2s linear;
+}
