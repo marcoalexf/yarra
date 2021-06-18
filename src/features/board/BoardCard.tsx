@@ -8,7 +8,7 @@ export default ({lane} : any) => {
     const [nLikes, setNLikes] = useState(0);
     const [nDisikes, setNDisikes] = useState(0);
     return (
-        <Grid key={lane.name} item xs={2}>
+        <Grid key={lane.name} item xs={2} style={{height: 'fit-content'}}>
             <Card
             style={{
                 backgroundColor: grey[300]
